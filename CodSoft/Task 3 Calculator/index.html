@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="calculator">
+  <h1>CALCULATOR</h1>
+  <input type="text" placeholder="Enter any  number" id="result" readonly><br><br>
+
+  <input class="btn" type="button" value="2" onclick="addToResult('2')">
+  <input class="btn" type="button" value="1" onclick="addToResult('1')">
+  <input class="btn" type="button" value="3" onclick="addToResult('3')">
+  <input class="btn" type="button" value="+" onclick="addToResult('+')"><br><br>
+
+  <input class="btn" type="button" value="4" onclick="addToResult('4')">
+  <input class="btn" type="button" value="5" onclick="addToResult('5')">
+  <input class="btn" type="button" value="6" onclick="addToResult('6')">
+  <input class="btn" type="button" value="-" onclick="addToResult('-')"><br><br>
+
+  <input class="btn" type="button" value="7" onclick="addToResult('7')">
+  <input class="btn" type="button" value="8" onclick="addToResult('8')">
+  <input class="btn" type="button" value="9" onclick="addToResult('9')">
+  <input class="btn" type="button" value="*" onclick="addToResult('*')"><br><br>
+
+  <input class="btn" type="button" value="0" onclick="addToResult('0')">
+  <input class="btn" type="button" value="C" onclick="clearResult()">
+  <input class="btn" type="button" value="=" onclick="calculateResult()">
+  <input class="btn" type="button" value="/" onclick="addToResult('/')"><br><br>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

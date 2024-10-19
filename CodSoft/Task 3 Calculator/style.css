@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  h1{
+      font-size: 3rem;
+      
+  }
+  input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: #000;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    border-radius: 100px;
+    font-weight: bold;
+    
+  }
+  .btn:hover{
+    background-color:rgb(44, 71, 110);
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    width: 21rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: right;
+    
+  }
+  #calculator {
+    display: inline-block;
+    background-color: rgb(94, 130, 163);
+    padding: 2rem;
+    border-radius: 2rem; 
+  }
